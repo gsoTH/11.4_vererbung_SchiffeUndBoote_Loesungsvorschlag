@@ -1,0 +1,39 @@
+from land import Land
+from besitzer import Besitzer
+
+class Sportboot:
+    def __init__(self, name, laenge_in_metern, breite_in_metern, hoehe_in_metern, tiefgang_in_metern, leistung_in_kw, besitzer):
+        self.name = name
+        self.laenge_in_metern = laenge_in_metern
+        self.breite_in_metern = breite_in_metern
+        self.hoehe_in_metern = hoehe_in_metern
+        self.tiefgang_in_metern = tiefgang_in_metern
+        self.leistung_in_kw = leistung_in_kw
+        self.besitzer = besitzer
+
+    def get_name(self):
+        return self.name
+
+    def get_besitzer(self):
+        return self.besitzer
+
+    def set_besitzer(self, value):
+        self.besitzer = value
+
+    def get_laenge_in_metern(self):
+        return self.laenge_in_metern
+
+    def get_breite_in_metern(self):
+        return self.breite_in_metern
+
+    def get_hoehe_in_metern(self):
+        return self.hoehe_in_metern
+
+    def get_tiefgang_in_metern(self):
+        return self.tiefgang_in_metern
+
+    def get_leistung_in_kw(self):
+        return self.leistung_in_kw
+
+    def set_leistung_in_kw(self, value):
+        self.leistung_in_kw = value
